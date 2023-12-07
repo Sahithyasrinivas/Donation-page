@@ -1,0 +1,328 @@
+<html>
+    <head>
+        <style>
+            *{
+                outline:0px;
+                padding: 0px;
+                margin: 0px;
+            }
+            .content{
+                text-align: center;
+                font-size: 20px;
+                padding-top: 30px;
+            }
+            .container1{
+                width: 100%;
+                height: 70vh;
+                display: flex;
+                margin-top: 30px;
+                justify-content: space-around;
+                background-color: white;
+            }
+            .c1{
+                width: 30%;
+                height: 70vh;
+                background-color: rgb(143, 213, 215);
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c11 img{
+                width:100%;
+                height: 60vh;
+                background: url("pgal1.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }
+            .c2{
+                width: 30%;
+                height: 70vh;
+                background-color: antiquewhite;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c21 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal2.jpg");
+                background-size: cover;
+                border-radius: 20px;
+                background-repeat: no-repeat;
+            }
+            .c3{
+                width: 30%;
+                height: 70vh;
+                background-color: pink;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c31 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal3.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            } 
+            .container2{
+                width: 100%;
+                height: 70vh;
+                display: flex;
+                margin-top: 30px;
+                justify-content: space-around;
+                background-color: white;
+            }
+            .c4{
+                width: 30%;
+                height: 70vh;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+                background-color: rgb(235, 228, 129);
+            }
+            .c41 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal4.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }
+            .c5{
+                width: 30%;
+                height: 70vh;
+                background-color: lightblue;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c51 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal5.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }
+            .c6{
+                width: 30%;
+                height: 70vh;
+                background-color: peachpuff;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c61 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal6.webp");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }.container3{
+                width: 100%;
+                height: 70vh;
+                display: flex;
+                margin-top: 30px;
+                justify-content: space-around;
+                background-color: white;
+            }
+            .c7{
+                width: 30%;
+                height: 70vh;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+                background-color: thistle;
+            }
+            .c71 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal7.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                border-radius: 20px;
+            }
+            .c8{
+                width: 30%;
+                height: 70vh;
+                background-color: rgb(224, 221, 221);
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c81 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal8.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }
+            .c9{
+                width: 30%;
+                height: 70vh;
+                background-color: lightgreen;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c91 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal9.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }
+            .container4{
+                width: 100%;
+                height: 70vh;
+                display: flex;
+                margin-top: 30px;
+                justify-content: space-around;
+                background-color: white;
+            }
+            .c10{
+                width: 30%;
+                height: 70vh;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+                background-color: rgb(180, 144, 219);
+            }
+            .c101 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal10.webp");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }
+            .c12{
+                width: 30%;
+                height: 70vh;
+                background-color: rgb(248, 177, 177);
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c121 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal12.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }
+            .c13{
+                width: 30%;
+                height: 70vh;
+                background-color: lightblue;
+                display: flex;
+                flex-direction: column;
+                border-radius: 30px;
+            }
+            .c131 img{
+                width: 100%;
+                height: 60vh;
+                background: url("pgal13.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1 style="padding-bottom: 20px;">Images Gallery</h1>
+            <div>We understand that it is not possible for everyone to experience every kind act and </div>
+            <div> event that happens. Therefore, we’ve made attempts to capture these moments in images </div>
+           <div> for you. This gallery has our NGO’s photos of events and initiatives, so you can </div>
+           <div>get a glimpse into the achievements and efforts of our organisation.</div>
+        </div>
+        <div class="container1">
+            <div class="c1">
+                <div class="c11"><img src="pimage1.jpg"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Help Others</h2>
+                    <div style="font-size: 20px;">Be generous to the poor orphans and those in need.</div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="c21"><img src="pimage2.jpg"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Be Kind</h2>
+                    <div style="font-size: 20px;">Asking for help is a sign of strength, not weakness.</div>
+                </div>
+            </div>
+            <div class="c3">
+                <div class="c31"><img src="pimage3.jpg"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Be generous</h2>
+                    <div style="font-size: 20px;">When we give help, we receive help. </div>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="c4">
+                <div class="c41"><img src="pimage4.jpg"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Be Humane</h2>
+                    <div style="font-size: 20px;">We rise by lifting others.</div>
+                </div>
+            </div>
+            <div class="c5">
+                <div class="c51"><img src="pimage6.jpg"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Be polite</h2>
+                    <div style="font-size: 20px;">Kindness is the oil that takes the friction out of life.</div>
+                </div>
+            </div>
+            <div class="c6">
+                <div class="c61"><img src="pimage7.png"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Images Gallery</h2>
+                    <div style="font-size: 20px;">Helping others is the best way to help yourself.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="c7">
+                <div class="c71"><img src="psuccess1.jpg"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Images Gallery</h2>
+                    <div style="font-size: 20px;">In a world where you can be anything, be kind.</div>
+                </div>
+            </div>
+            <div class="c8">
+                <div class="c81"><img src="psuccess2.jpg"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Images Gallery</h2>
+                    <div style="font-size: 20px;">No one has ever become poor by giving.</div>
+                </div>
+            </div>
+            <div class="c9">
+                <div class="c91"><img src="psuccess3.jpg"/></div>
+                <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Images Gallery</h2>
+                    <div style="font-size: 20px;">Helping hands are better than praying lips.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container4">
+            <div class="c10">
+            <div class="c101"><img src="psuccess5.jpg"/></div>
+            <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Save Others</h2>
+                <div style="font-size: 20px;">Kindness is the sunshine in which virtue grows.</div>
+            </div>
+        </div>
+        <div class="c12">
+            <div class="c121"><img src="psuccess6.jpg"/></div>
+            <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Love Everyone</h2>
+                <div style="font-size: 20px;">Kindness is a gift everyone can afford to give.</div>
+            </div>
+        </div>
+        <div class="c13">
+            <div class="c131"><img src="psuccess7.jpg"/></div>
+            <div style="padding-left: 20px;"><h2 style="padding-top: 10px;padding-bottom: 5px;">Be Support</h2>
+                <div style="font-size: 20px;">We may not have parents, but we have each other</div>
+            </div>
+         </div>
+        </div>
+    </body>
+</html>

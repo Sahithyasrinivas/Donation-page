@@ -1,0 +1,421 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+        *{
+            margin: 0px;
+            outline: 0px;
+            padding: 0px;
+        }
+        .nav{
+            display: flex;
+            width: 100%;
+            height: 15vh;
+            background-color: rgba(2, 2, 63, 0.895);
+            justify-content: space-between;
+        }
+        .left img{
+            width: 150px;
+            height: 60px;
+            margin: 20px;
+            padding-top: 10px;
+        }
+        .right{
+            display: flex;
+            margin-top:50px;
+        }
+        .right div{
+            padding-right: 50px;
+            font-size: 20px;
+            padding-top:7px;
+        }
+        .right a{
+            text-decoration:none;
+            color:whitesmoke;
+        }
+        #b1{
+            margin-right: 50px;
+            background-color: orange;
+            padding: 10px;
+            border:3px solid black;
+            padding-bottom: 30px;
+            margin-bottom: 60px;
+        }
+            .container{
+                width: 100%;
+                display: flex;
+                height: 80vh;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+            }
+            .cleft{
+                width: 60%;
+                height: 60vh;
+                margin-left: 50px;
+                margin-top: 10vh;
+            }
+            .cright{
+                width: 30%;
+                height:60vh;
+                margin-right: 60px;
+                margin-top: 10vh;
+                color: darkblue;
+                padding-top: 200px;
+            }
+            .cleft img{
+                width: 100%;
+                height: 60vh;
+                background: url("pchild1.jpg");
+                background-size: cover;
+            }
+            .cleft h2{
+                padding-bottom: 20px;
+            }
+            .cleft i{
+                padding-left: 20px;
+                padding-right: 10px;
+            }
+            .cleft a{
+                text-decoration: none;
+                color: rgba(2, 2, 63, 0.895);
+            }
+            .data{
+                width: 70%;
+                height: 50vh;
+                text-align: center;
+                margin-left:225px;
+                line-height: 25px;
+            }
+            .data h1{
+                padding-top: 30px;
+                padding-bottom: 20px;
+            }
+            .data1{
+                width: 100%;
+                height: 20vh;
+                text-align: center;
+            }
+            .data1 h1{
+                padding-top: 30px;
+                padding-bottom: 15px;
+            }
+            .data2{
+                width: 80%;
+                height: 60vh;
+                display: flex;
+                margin: auto;
+            }
+            .d1{
+                width: 25%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .d2{
+                width: 25%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .d3{
+                width: 25%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .d4{
+                width: 25%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            progress{
+                padding: 20px;
+                color: blue;
+            }
+            .d1 img{
+                width: 100%;
+                height: 35vh;
+                background: url("pchild2.png");
+                background-size: cover;
+            }
+            .d1 h2{
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+            .d2 img{
+                width: 100%;
+                height: 35vh;
+                background: url("pchild3.jpg");
+                background-size: cover;
+            }
+            .d2 h2{
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+            .d3 img{
+                width: 100%;
+                height: 35vh;
+                background: url("pchild4.jpg");
+                background-size: cover;
+            }
+            .d3 h2{
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+            .d4 img{
+                width: 100%;
+                height: 35vh;
+                background: url("pchild5.webp");
+                background-size: cover;
+            }
+            .d4 h2{
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+            .data2 p{
+                margin-left: 20px;
+            }
+            .data3{
+                width:100%;
+                height:80vh;
+                background-color: rgba(2, 2, 63, 0.895);
+                color: whitesmoke;
+            }
+            #a1{
+                width: 100%;
+                height: 15vh;
+                font-size: 40px;
+                display: flex;
+                justify-content: space-around;
+                padding-top: 40px;
+            }
+            #a2{
+                width: 100%;
+                height: 10vh;
+                text-align: center;
+                padding-top: 40px;
+                font-size: 25px;
+            }
+        #b2{
+            width: 20%;
+            background-color: orange;
+            padding: 10px;
+            border:3px solid black;
+            margin-bottom: 60px; 
+        }
+        #a3{
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: space-between;
+        }
+        #a3 h1{
+            padding-bottom: 15px;
+            color: orange;
+        }
+        #a3 h2{
+            font-size: 20px;
+        }
+        .a31{
+            width: 25%;
+            height: 44vh;
+            padding-left: 20px;
+        }
+        .a32{
+            width: 25%;
+            height: 44vh;
+            padding-left: 20px;   
+        }
+        .a33{
+            width: 25%;
+            height: 44vh;
+            padding-left: 20px;
+        }
+        .a33 h2 i{
+            padding-right: 10px;
+        }
+        .a33 a{
+            text-decoration:none;
+            color:  whitesmoke;
+        }
+        .a331{
+            padding-left:10px;
+        }
+        .a34{
+            width: 25%;
+            height: 44vh;
+            padding-left: 20px;
+        }
+        .footer{
+            width:100%;
+            padding-top: 10px;
+        }
+        .footer div{
+            text-align: center;
+            font-size: 20px;
+        }
+        #b3{
+            padding-top: 30px;
+        }
+        .mdscreen{
+            position: relative;
+        }
+        .submenu{
+            position: absolute;
+            width: 45%;
+            background-color: whitesmoke;
+            padding-left: 20px;
+            line-height:20px;
+            opacity: 0;
+            transition: opacity 3s;
+        }
+        .submenu div{
+            color: grey;
+            width: 100%;
+        }
+        .submenu a{
+            text-decoration: none;
+            color:rgba(2, 2, 63, 0.895);
+        }
+        .mdscreen:hover .submenu{
+            opacity: 1;
+        }
+        .highlight{
+            position: relative;
+        }
+        .submenu1{
+            position: absolute;
+            width: 45%;
+            background-color: whitesmoke;
+            padding-left: 20px;
+            line-height:20px;
+            opacity: 0;
+           transition: opacity 3s;
+        }
+        .submenu1 div{
+            color: grey;
+            width: 100%;
+        }
+        .submenu1 a{
+            text-decoration: none;
+            color:rgba(2, 2, 63, 0.895);
+        }
+        .highlight:hover .submenu1{
+            opacity: 1;
+        }
+        .chat img{
+            width:40px;
+            height:40px;
+        }
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="left"><img src="pcharity1.png" alt="logo"/></div>
+            <div class="right">
+                <div><a href="pabout.html">About us</a></div>
+                <div><a href="pdonate.html">Donate</a></div>
+                <div class="mdscreen"><a href="#">Media screen</a>
+                    <div class="submenu">
+                        <div><a href="pgallery.html">ImageGallery</a></div>
+                        <div><a href="psocial.html">SocialMedia</a></div>
+                    </div>
+                </div>
+                <div class="highlight"><a href="#">Highlights</a>
+                    <div class="submenu1">
+                        <div><a href="pawards.html">Awards</a></div>
+                    </div></div>
+                <div><a href="pcontact.html">Contact us</a></div>
+                <button id="b1" onclick="fun()"><h3>Donation</h3></button>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="cleft"><h2><a href="https://wa.me/8501010506" target="_blank"><i class="fa-brands fa-whatsapp"></i>+91-8501010506</a>
+                <a href="tel:8501010506" target="_blank"><i class="fa-solid fa-phone"></i>8501010506</a>
+                <a href="mailto: rakeshmakkinib4u@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>rakeshmakkinib4u@gmail.com</a></h2>
+                <img src="pframe.png"/></div>
+            <div class="cright"><h2>IF YOU HAVE A</h2>
+                <h1>DISABILITY, DON’T
+                LET PEOPLE DIMINISH
+                YOUR ABILITY</h1></div>
+        </div>
+        <div class="data"><h1>CONTRIBUTE WITH US</h1>
+        <h3>Sri Janatha Seva Mitra is an NGO in India based in Tirupati (Andhra Pradesh). Established in 2019, we have worked extensively for more 
+            than three 3 years to reach out andrehabilitate differently able people from the underprivileged segment.Sri Janatha Seva Mitra
+            works with 4 branches in India while focusing on alleviating disabilities and providing proper Physical, 
+            Social, and Economic Rehabilitation to the needy. We do this through well-planned and comprehensive programs in health, education, 
+            rehabilitation, corrective surgeries, and helping aid distribution making us the best charity organization in Tirupati.</h3>
+        <h1>IMPACT CREATED BY YOUR VALUABLE CONTRIBUTIONS</h1>
+        <h3>Here is What Sri Janatha Seva Mitra has Managed with Your Help:</h3>
+        </div>
+        <div class="data1"><h1>CHANGING LIVES</h1>
+        <h3>Let Us Extend a Helping Hand to Those in Need</h3></div>
+        <div class="data2">
+            <div class="d1"><img src="pframe.png"/>
+                <h2>Food For Patient</h2>
+                <progress value="80" max="100"></progress>
+            <p>3,93,61,138 Children feed</p>
+            </div>
+            <div class="d2"><img src="pframe.png"/><h2>Roti Packet</h2>
+                <progress value="55" max="100"></progress>
+            <p>15,82,483 Happiness Kits provided</p></div>
+            <div class="d3"><img src="pframe.png"/><h2>Artificial Limb</h2>
+                <progress value="25" max="100"></progress>
+            <p>32,033 Artificial Limbs Distributed</p></div>
+            <div class="d4"><img src="pframe.png"/><h2>Operation/Surgery</h2>
+                <progress value="60" max="100"></progress>
+            <p>4,34,435 Surgeries Accomplished</p></div>
+        </div>
+        <div class="data3">
+            <div id="a1">Save a life.to Sri Janatha Seva Mitra
+                <button id="b2"onclick="fun()">Donate</button>
+            </div>
+            <div id="a2">All the donations to Sri Janatha Seva Mitra are tax exempted under 80G of the Indian Income Tax Act
+                Charity Id: AAATN4183F</div>
+            <div id="a3">
+                <div class="a31">
+                    <h1>Quick Links</h1>
+                    <h2>About Us</h2>
+                    <h2>News&Stories</h2>
+                    <h2>Careers</h2>
+                    <h2>FAQs</h2>
+                    <h2>Privacy Policy</h2>
+                </div>
+                <div class="a32">
+                    <h1>Contact Address</h1>
+                    <h2>Sri Janatha Seva Mitra</h2>
+                    <h2>4/36,Janatha Office,</h2>
+                    <h2>Vaikuntapuram arch,M.R Palli,</h2>
+                    <h2>Tirupati,517502,India</h2>
+                </div>
+                <div class="a33">
+                    <h1>Contact Detail</h1>
+                    <h2><a href="tel:8501010506" target="_blank"><i class="fa-solid fa-phone"></i>8501010506</a></h2>
+                    <h2><a href="https://wa.me/8501010506" target="_blank"><i class="fa-brands fa-whatsapp"></i> +91-8501010506</a></h2>
+                    <h2><a href="mailto: rakeshmakkinib4u@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> rakeshmakkinib4u@gmail.com</a></h2>
+                    <h1 id="b3"><a href="https://m.facebook.com/people/Sri-Janatha-seva-mitra/100067999568791/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/janatha_sevamitra/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtu.be/i5YaUMcOkzE" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </h1>
+                </div>
+                <div class="a34"><h1>About</h1>
+                    <h2>As an NGO in Tirupathi, Sri Janatha Seva Mitra is our attempt to make food accessible to the needy across Tirupati by serving them hot, nutritious, locally palatable meals prepared at our very own state-of-the-art FSSAI compliant kitchen.</h2>
+                </div>
+            </div>
+        </div>
+        <footer class="footer"><div>Copyright © Janathasevamitra 2023 All Rights Reserved</div>
+        <script>
+            function fun()
+            {
+                window.open("pdonate.html")
+            }
+        </script> 
+    </body>
+</html>
+  

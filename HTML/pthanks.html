@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            .container{
+                width: 70%;
+                height: 90%;
+                background-color: blueviolet;
+                margin: auto;
+                margin-top: 40px;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .container img{
+                width: 100%;
+                height: 30vh;
+                padding-top: 40px;
+                padding-bottom: 25px;
+            }
+            #b1{
+                width: 20%;
+                height: 40px;
+                border-radius: 20px;
+                background-color: yellow;
+                margin-top: 30px;
+            }
+            #c1{
+                font-style: italic;
+                font-size: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div><img src="gif.gif"/></div>
+            <h1 id="c1">Thank you for visiting</h1>
+            <h3>We'll reach you out immediately!</h3>
+            <button id="b1" onclick="fun()">Back to homepage</button>
+        </div>
+        <script>
+            function fun()
+            {
+                window.open("phome.html")
+            }
+        </script>
+    </body>
+</html>

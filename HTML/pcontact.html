@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                padding: 0px;
+                outline: 0px;
+                margin: 0px;
+            }
+            .container{
+                width: 98%;
+                height: 80vh;
+                margin:auto;
+                display: flex;
+            }
+            .left{
+                width:70%;
+                height:80vh;
+                background-color: yellow;
+                background: url("pcontact.jpg");
+            }
+            .left img{
+                width:100%;
+                height: 100%;
+            }
+            .right{
+                width: 30%;
+                height: 65vh;
+                background-color: pink;
+                font-size: 30px;
+                padding-top: 100px;
+                padding-left: 20px;
+                color: rgba(2, 2, 63, 0.895);
+            }
+            .right i{
+                padding-right: 10px;
+            }
+            .right div{
+                padding-top: 30px;
+            }
+            .right div a{
+                text-decoration:none;
+                color: rgba(2, 2, 63, 0.895);
+            }
+            .right h1 a{
+                color: rgba(2, 2, 63, 0.895);
+            }
+            .container1{
+                width: 98%;
+                height: 80vh;
+                background-color: blueviolet;
+                margin:auto;
+                display: flex;
+            }
+            .left1{
+                width:50%;
+                height:80vh;
+                background-color: rgba(2, 2, 63, 0.895);
+                padding-left: 20px;
+            }
+            .right1{
+                width: 50%;
+                height: 80vh;
+                background-color: pink;
+            }
+            .right1 iframe{
+                width: 100%;
+                height: 100%;
+            }
+            .left11{
+                width: 90%;
+                height: 50px;
+                font-size: 15px;
+                margin-bottom: 30px;
+            }
+            .name{
+                width: 40%;
+                height: 50px;
+                margin-bottom: 30px;
+            }
+            .email{
+                width: 40%;
+                height: 50px;
+                margin-bottom: 30px;
+            }
+            .message{
+                width: 40%;
+                height: 50px;
+                margin-bottom: 30px;
+            }
+            .left1 button{
+                padding: 15px 40px;
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left"><img src="pframe.png"/></div>
+            <div class="right">GET IN TOUCH
+                <div><a href="https://wa.me/8501010506" target="_blank"><i class="fa-brands fa-whatsapp"></i>+91-8501010506</a></div>
+                <div><a href="tel:8501010506" target="_blank"><i class="fa-solid fa-phone"></i>8501010506</a></div>
+                <div><a href="mailto: rakeshmakkinib4u@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>rakeshmakkinib4u@gmail.com</a></div>
+                <h1 style="padding-top: 60px;"><a href="https://m.facebook.com/people/Sri-Janatha-seva-mitra/100067999568791/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/janatha_sevamitra/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtu.be/i5YaUMcOkzE" target="_blank"><i class="fa-brands fa-youtube"></i></h1></a>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="left1">
+                <h2 style="padding-top: 30px;padding-bottom: 30px;color: whitesmoke;">Have Quetions !!</h2> 
+                <select class="left11">
+                    <option value="reason">Reason of Contact*</option>
+                    <option value="plan">Planning a Visit</option>
+                    <option value="know">Know more about Us</option>
+                    <option value="donate">Want to Donate</option>
+                    <option value="trt">Need Treatment</option>
+                    <option value="asst">Want to Associate</option>
+                    <option value="others">Others</option>
+                </select>
+                <div><input type="text" placeholder="First Name*" class="name"/>
+                    <input type="text" placeholder="Last Name*" class="name"/>
+                </div>
+                <div><input type="Email" placeholder="Email*" class="email"/>
+                    <input type="text" placeholder="Mobile Number*" class="email"/>
+                </div>
+                <div><input type="text" placeholder="Type a Message" class="message" /></div>
+                <button onclick="fun()">Submit</button>
+            </div>
+            <div class="right1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.6978135477543!2d79.40670497591857!3d13.615259080067347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b6b70235ba9%3A0x32d1c174e42b167!2sBalaji%20Sweet%20Home!5e0!3m2!1sen!2sin!4v1683182039473!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+        <script>
+            function fun() 
+            {
+                window.open("pthanks.html")
+            }
+        </script>
+    </body>
+</html>
